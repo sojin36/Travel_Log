@@ -1,0 +1,145 @@
+*{
+    /* padding: 0; */
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(197, 236, 236);
+}
+a{
+    text-decoration: none;
+    color: rgb(36, 33, 34);
+}
+/* 헤더 */
+header{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(98, 204, 169);
+    color: rgb(250, 250, 250);
+}
+/* 로고 */
+#logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+/* 네비게이션 */
+nav{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 15px;
+}
+/* 메뉴 */
+nav a{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+/* 메인 베너 */
+.hero{
+    text-align: center;
+    background-color: rgb(135, 238, 234);
+    padding: 60px;
+}
+.hero h1{
+    font-size: 36px;
+}
+.hero p{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.button{
+    background-color: rgb(21, 206, 197);
+    padding: 12px 24px;
+    color: rgb(239, 238, 240);
+    border-radius: 8px;
+    display: inline-block;
+}
+/* 공통영역 */
+section{
+    width: 50%;
+    /* background-color: rgb(176, 214, 247); */
+    margin: 40px auto;
+}
+section h2{
+    color: black;
+}
+hr{
+    border: 0;
+    border-top: 3px solid skyblue;
+}
+/* 제주도 여행지 */
+.travel{
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.travel img{
+    width: 100%;
+}
+.travel h3{
+    color: rgb(250, 184, 123);
+    margin-top: 15px;
+}
+.travel p{
+    padding: 15px 0;
+}
+.travel ul{
+    margin-bottom: 15px;
+}
+/* 여행 준비 */
+.check_line{
+    border: 0;
+    border-top: 3px dashed rgb(112, 154, 216);
+}
+/* 준비 리스트 */
+.check{
+    background-color: aliceblue;
+    padding: 20px;
+}
+.check li{
+    margin: 10px;
+}
+/* 푸터 */
+footer{
+    background-color: rgb(46, 75, 87);
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+}
+footer p{
+    margin: 10px 0;
+}
+/* 제주 상세보기 */
+.intro{
+    padding: 30px;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+.intro img{
+    width: 100%;
+}
+.intro h2{
+    margin: 24px 0;
+    color: rgb(31, 216, 216);
+}
+.intro p{
+    margin: 16px 0;
+}
+/* 여행 정보 */
+.info{
+    background-color: rgb(203, 236, 225);
+    padding: 20px ;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+section .buttton2{
+    background-color: rgb(21, 206, 197);
+    padding: 12px 24px;
+    color: rgb(239, 238, 240);
+    border-radius: 8px;
+    display: inline-block;
+}
